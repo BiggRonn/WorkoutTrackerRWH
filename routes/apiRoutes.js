@@ -1,6 +1,7 @@
 const Workout = require("../models/workout")
-
-app.get("/api/workouts",function(req,res){  
+const router = require("express").Router()
+//get all workouts
+router.get("/workouts",function(req,res){  
     Workout.find({})
     .then(data =>{  
         res.json(data)
@@ -11,8 +12,10 @@ app.get("/api/workouts",function(req,res){
 });
 
 
-app.post("/", ({body}, res) => {
+router.post("/workouts", ({body}, res) => {
     Workout.create(body)
         .then()
       
   });
+
+  module.exports = router;
