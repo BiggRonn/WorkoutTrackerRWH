@@ -26,18 +26,12 @@ router.post("/workouts", ({body}, res) => {
 
   module.exports = router;
 
+//   router.put("/workouts/:id", async function (req, res){
+//       Workout.findOneAndUpdate(
+//         { _id: req.params.id }
+//   })
 
-
-//   app.post("/submit", ({body}, res) => {
-//     db.Book.create(body)
-//       .then(({_id}) => db.Library.findOneAndUpdate({}, { $push: { books: _id } }, { new: true }))
-//       .then(dbLibrary => {
-//         res.json(dbLibrary);
-//       })
-//       .catch(err => {
-//         res.json(err);
-//       });
-//   }); 
+router.get("/workouts/range", async function (req, res){})
 
 
 
