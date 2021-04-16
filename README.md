@@ -4,14 +4,14 @@
 https://mongoosejs.com/docs/guide.html
 
 
-Add exercises to the most recent workout plan.
 
+## License
+  ​
+This project is licensed under the Unlicensed license.
+  
+## Questions
+  ​
+If you have any questions about the repo, open an issue or contact me directly at BigRonald42@hotmail.com. You can find more of my work at [GitHub](https://github.com/BiggRonn/).
 
-Add new exercises to a new workout plan.
-
-
-View the combined weight of multiple exercises from the past seven workouts on the stats page.
-
-
-View the total duration of each workout from the past seven workouts on the stats page.
-
+## Deployed App
+https://workout-tracker-rwh.herokuapp.com
