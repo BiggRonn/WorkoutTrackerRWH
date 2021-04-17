@@ -1,9 +1,10 @@
 # WorkoutTrackerRWH
 
-## Resources
-https://mongoosejs.com/docs/guide.html
+This app will allow users to add exercises to a workout and create new workouts. Users can then see data displayed in a chart, showing data from the latest 7 workouts. Workouts have useful information such as total weight and total duration. 
 
-
+# Homepage & Dashboard
+![screenshot of the homepage](./assets/WorkoutTracker.PNG)
+![screenshot of the dashboard](./assets/WorkoutDashboard.PNG)
 
 ## License
   ​
